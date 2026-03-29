@@ -1,3 +1,4 @@
+//随机生成五位密码
 import java.util.Random;
 public class Test9 {
     public static void main(String[] args){
