@@ -14,8 +14,9 @@ public class Test4{
         int number=r.nextInt(100)+1;
         Scanner sc=new Scanner(System.in);
         int count=0;
-        System.out.println("please input your number");
+        
         int guess=sc.nextInt();
+        System.out.println("please input your number");
         while(guess!=number){
             if(guess>number){
                 System.out.println("your number is too big");
