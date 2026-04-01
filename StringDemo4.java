@@ -20,5 +20,6 @@ public class StringDemo4 {
         System.out.println("大写字母的个数是："+bigcount);
         System.out.println("小写字母的个数是："+smallcount);
         System.out.println("数字的个数是："+numcount);
+        
     }
 }
