@@ -1,7 +1,9 @@
 public class RoleGame {
     public static void main(String[] args){
-        Role role1=new Role("张三",100);
-        Role role2=new Role("李四",100);
+        Role role1=new Role("张三",100,'男');
+        Role role2=new Role("李四",100,'女');
+        role1.showRoleInfo();
+        role2.showRoleInfo();
         while(true){
             role1.attack(role2);
             if (role2.getBlood()<=0){
